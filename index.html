@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Grow</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="container-fluid">
+    <!-- header section start here -->
+    <header>
+      <!-- company logo -->
+      <section class="logo text-center bg-dark pt-2">
+        <img
+          src="./img/logo-hg.png"
+          alt=""
+          data-aos="zoom-in-left"
+          data-aos-duration="3000"
+        />
+      </section>
+
+      <!-- location-contacts -->
+      <section class="location-contacts bg-dark py-3 text-light text-muted">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-5">
+          <div class="col d-flex align-items-center">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <p>
+              <strong class="highlight">Office Address:</strong> <br />
+              Gaziaron, Goshingga, Shreepur, Gazipur.
+            </p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <div class="icon">
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <p>
+              <strong class="highlight">Contact us:</strong> <br />
+              Cell/WhatsApp: +880 1731106046
+            </p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <div class="icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <p>
+              <strong class="highlight">Working Hours</strong> <br />
+              9:00 - 6:00 (GMT+6)
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- navigation info  -->
+      <section class="navbar-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div
+              class="nav-img bg-dark p-2"
+              data-aos="zoom-in-left"
+              data-aos-duration="2000"
+            >
+              <img src="./img/logo-hg.png" alt="" width="100" height="50" />
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-black">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Company Profile
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./components/mission.html"
+                        >Our Mission</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./components/opportunities.html"
+                        >Opportunites</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./components/managemnt-profile.html"
+                        >Management Profile</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#r&d"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our R&D Activities
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./components/production-processing-r&d.html"
+                        >Production & Processing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./components/export-foreign.html"
+                        >Our Export & Foreign Activities</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./components/department.html">Our Departments</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./components/photo-gallery.html">Photo Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./components/products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./components/contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- main section start here  -->
+    <main>
+      <!-- image-slider -->
+      <section class="image-slider-container">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="./img/slider (1).jpg" class="d-block w-100" alt="..." />
+              <div
+                class="carousel-caption h-100 d-flex flex-column justify-content-center text-start"
+              >
+                <h5>Home Grow</h5>
+                <p>
+                  Home Grow is an initiative in agriculture sector with a new
+                  vision was incorporated
+                </p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./img/slider (2).jpg" class="d-block w-100" alt="..." />
+              <div
+                class="carousel-caption h-100 d-flex flex-column justify-content-center text-start"
+              >
+                <h5>Breeding</h5>
+                <p>
+                  Breeding for high yielding varieties to adapt with climatic
+                  change.
+                </p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./img/slider (3).jpg" class="d-block w-100" alt="..." />
+              <div
+                class="carousel-caption h-100 d-flex flex-column justify-content-center text-start"
+              >
+                <h5>Export</h5>
+                <p>
+                  We export seed to Hongkong, Pakistan, Malaysia, S. Korea,
+                  China etc.
+                </p>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- activities production department  -->
+      <section
+        class="activities-container text-center row row-cols-1 row-cols-lg-3 py-3 container-lg mx-auto"
+      >
+        <div class="py-3 activities">
+          <h5><strong>Our R&D Activities</strong></h5>
+          <p>
+            We work for farmers satisfaction with stress tolerance products
+            farmers/foreign customers demand research job New ...
+          </p>
+          <a href="./components/production-processing-r&d.html"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="py-3 activities">
+          <h5><strong>Production & Processing</strong></h5>
+          <p>
+            Production Home Grow has more than 100 experienced contract seed
+            growers and 5 confined farm ...
+          </p>
+          <a href="./components/production-processing-r&d.html"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="py-3 activities">
+          <h5><strong>Our Departments</strong></h5>
+          <p>
+            R&D Stock seed Production Processing and quality control PDS,
+            Demonstration and Promotion Sales and Marketing ...
+          </p>
+          <a href="./components/department.html"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </section>
+      <!-- company-profile -->
+      <section class="py-3 row row-cols-md-2 mx-auto container">
+        <div class="left">
+          <h1 class="py-3">
+            <strong>Comapny <span class="highlight">Profile</span></strong>
+          </h1>
+          <img class="img-fluid" src="./img/slider (1).jpg" alt="" />
+          <p class="py-3 text-muted">
+            Home Grow is an initiative in agriculture sector with a new vision
+            was incorporated in the year of 2022 to enter in international seed
+            market by exporting and contract seed production as well as increase
+            food production of country and upgrade the farmer’s income. Global
+            warming as well as climate change is now becoming the burning issue for
+            agriculture.
+            <br />
+            <br />
+            Keeping this in mind, Home Grow is giving special emphasize on stress
+            tolerant product development. Our objective is not only to produce,
+            process and supply of quality seed for farmer’s satisfaction, but
+            also develop and disseminate the appropriate technologies for
+            successful crop production, which is one of the corner stones of our
+            mission.
+          </p>
+        </div>
+        <div class="right d-none d-md-block">
+          <div class="right-img">
+            <img
+            class="img-fluid my-2"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            src="./img/slider (2).jpg"
+            alt=""
+          />
+          </div>
+          <div class="right-img">
+            <img
+            class="img-fluid my-2"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            src="./img/slider (3).jpg"
+            alt=""
+          />
+          </div>
+          <div class="right-img">
+            <img
+            class="img-fluid my-2 d-lg-none"
+            src="./img/home (1).jpg"
+            alt=""
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          />
+          </div>
+          <div class="right-img">
+            <img
+            class="img-fluid my-2 d-lg-none"
+            src="./img/home (2).jpg"
+            alt=""
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          />
+          </div>
+        </div>
+      </section>
+      <!-- management profile and opportunites  -->
+      <section class="bg-dark py-5">
+        <h1 class="text-center fw-bold highlight">Profile & Opportunites</h1>
+        <div class="row row-cols-md-2 container gap-3 mx-auto py-5">
+          <div class="row">
+            <div
+              class="card p-2"
+              data-aos="slide-right"
+              data-aos-duration="2000"
+            >
+              <div class="card-img">
+                <img src="./img/home (1).jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-details">
+                <h5 class="my-3 highlight">
+                  <strong>Management Profile</strong>
+                </h5>
+                <p>
+                  Parvin Sultana is a dynamic and
+                  enthusiastic agriculturist having over 20 […]
+                </p>
+                <button class="read-more">
+                  <a href="./components/managemnt-profile.html"
+                    >Read More <i class="fa-solid fa-arrow-right ms-2"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="card p-2"
+              data-aos="slide-left"
+              data-aos-duration="2000"
+            >
+              <div class="card-img">
+                <img src="./img/home (2).jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-details">
+                <h5 class="my-3 highlight"><strong>Opportunities</strong></h5>
+                <p>
+                  Food will be the major issue in future for whole world.
+                  Quality seed is the […]
+                </p>
+                <button class="read-more">
+                  <a href="./components/opportunities.html"
+                    >Read More <i class="fa-solid fa-arrow-right ms-2"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- home information  -->
+      <section class="mx-5 my-5">
+        <h1 id="production-processing" class="text-center py-3">
+          <strong
+            >Our Production <span class="highlight">&</span> Processing</strong
+          >
+        </h1>
+        <section class="row row-cols-md-2 align-items-center">
+          <div>
+            <img src="./img/production.jpg" alt="" class="w-100 py-3" />
+          </div>
+          <div>
+            <h4 class="highlight"><strong>Production</strong></h4>
+            <p class="text-muted">
+              Home Grow has more than 80 experienced contract seed growers and
+              3 confined farm for seed production. A dedicated production team
+              of agriculturist is producing all kind of seed specially hybrid
+              seed. More than 150 acre of land is engaged for seed production.
+            </p>
+            <h4 class="highlight"><strong>Processing</strong></h4>
+            <p class="text-muted">
+              Processing department is responsible to ensure very high quality
+              of seed suitable for export market. We have facilities of
+              mechanical drying, cleaning, grading, treating, coating etc. We
+              also have dehumidified cold room for seed preservation.
+            </p>
+          </div>
+        </section>
+        <h1 id="r&d" class="text-center py-3">
+          <strong>Our <span class="highlight">R&D</span> Activities</strong>
+        </h1>
+        <section class="row row-cols-md-2 align-items-center">
+          <div>
+            <ul class="text-muted">
+              <h4 class="highlight"><strong>Our R&D</strong></h4>
+              <li>Farmers/foreign customers demand</li>
+              <li>Research job</li>
+              <li>New variety</li>
+              <li>PDS, Demonstration, adaptive trials</li>
+              <li>Germplasm collection and preservation</li>
+              <li>Maintenance breeding and breeder seed production.</li>
+            </ul>
+            <ul class="text-muted">
+              <h4 class="highlight"><strong>We have:</strong></h4>
+              <li>3 research farms in Thakurgao, Bogra and Panchagar</li>
+              <li>6 Breeders</li>
+              <li>10 breeder assistant</li>
+              <li>Around 20000 germplasm and a gene bank</li>
+            </ul>
+          </div>
+          <div>
+            <img src="./img/r&d.jpg" alt="" class="w-100 py-3" />
+          </div>
+        </section>
+      </section>
+    </main>
+    <!-- footer section starts here  -->
+    <footer class="bg-dark text-light">
+      <section class="footer-information mx-5 mt-5 p-5 d-md-flex gap-3">
+        <div>
+          <h4 class="highlight"><strong>About Us</strong></h4>
+          <p class="text-muted">
+            Home Grow is an initiative in agriculture sector with a new vision
+            was incorporated in the year of 2019 to enter in international seed
+            market by exporting and contract seed production as well as increase
+            food production of country and upgrade the farmer’s income.
+          </p>
+        </div>
+        <div>
+          <h4 class="highlight"><strong>Production</strong></h4>
+          <p class="text-muted">
+            Home Grow has more than 100 experienced contract seed growers and 5
+            confined farm for seed production. More than 200 acre of land is
+            engaged for seed production.
+          </p>
+        </div>
+        <div>
+          <h4 class="highlight">
+            <strong> Export </strong>
+          </h4>
+          <p class="text-muted">
+            We produce seed production of different op and hybrid vegetables as
+            contract basis for different countries like Hongkong, Pakistan,
+            Malaysia, S. Korea, China etc.
+          </p>
+        </div>
+        <div>
+          <h4 class="highlight">Contact Us</h4>
+          <p class="text-muted">
+            email: info@homegrowbd.com
+            <br />
+            Phone: 01731106046 
+            <br />
+            Website:www.homegrowbd.com
+            <br />
+            Gaziaron, Goshingga, Shreepur, Gazipur.
+          </p>
+        </div>
+      </section>
+      <hr />
+      <div class="copyright">
+        <p class="pb-5 text-center text-muted">
+          &#169; Copyright reserved by
+          <span class="highlight">Home Grow 2022</span>
+          <br />
+          Design and Developed by <span class="highlight">NSR DevZone</span>
+        </p>
+      </div>
+    </footer>
+    <!-- link bottstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- animation js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
