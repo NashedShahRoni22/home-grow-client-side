@@ -129,7 +129,6 @@
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="#r&d"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -183,12 +182,240 @@
     </header>
 
     <main class="py-5 container">
-      <h1 class="text-center mb-4 fw-bold">Our <span class="highlight">Product</span></h1>
-      <section id="product-container" class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+      <h1 class="text-center mb-4 fw-bold">
+        Our <span class="highlight">Products</span>
+      </h1>
+      <section class="row row-cols-1 row-cols-md-2">
+        <!-- Button trigger modal -->
+        <!-- seeds button card -->
+        <div
+          class="card products-modal-card p-0"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <img
+            src="https://img.freepik.com/free-photo/mix-beans_1339-258.jpg?w=1060&t=st=1667387378~exp=1667387978~hmac=7d5649b1d12be70cb8240f468a00d3aaa225b064ddb18c2282463cae84a28c2d"
+            class="card-img"
+            alt="seed"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title text-white modal-btn-name">
+              Seed
+            </h5>
+          </div>
+        </div>
+        <!-- duck button card -->
+        <div
+          class="card products-modal-card p-0"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#duckModal"
+        >
+          <img
+            src="https://images.pexels.com/photos/13121930/pexels-photo-13121930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img"
+            alt="duck and fishery"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title text-white modal-btn-name">
+              Duck & Fishery
+            </h5>
+          </div>
+        </div>
+        <!-- jute button card -->
+        <div
+          class="card products-modal-card p-0"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#juteModal"
+        >
+          <img
+            src="https://img.freepik.com/free-vector/realistic-hands-bag-green-grass-composition_1284-71180.jpg?w=1380&t=st=1667396880~exp=1667397480~hmac=72e9a341979d2a20d2926946ae8ae2ec2b6c9d23b028df32b394933b1fea6d6d"
+            class="card-img"
+            alt="jute-bag"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title text-white modal-btn-name">
+              Jute
+            </h5>
+          </div>
+        </div>
+        <!-- poultry button card -->
+        <div
+          class="card products-modal-card p-0"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#poultryModal"
+        >
+          <img
+            src="https://img.freepik.com/free-photo/top-view-person-holding-brown-chicks-cloth_181624-34688.jpg?w=996&t=st=1667396971~exp=1667397571~hmac=48c97a36771f1715688f6e4fbc5d6bafcb73b55ad1b67a8830ff5e2563f7ee18"
+            class="card-img"
+            alt="jute-bag"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title text-white modal-btn-name">
+              Poultry
+            </h5>
+          </div>
+        </div>
 
+        <!-- Products Modal -->
+        <!-- seeds product  -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content container">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+                  Seed <span class="highlight">Products</span>
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <section
+                  id="product-container"
+                  class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2"
+                >
+              </section>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Duck & Fishery product  -->
+        <div
+          class="modal fade"
+          id="duckModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content container">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+                  Duck & Fishery <span class="highlight">Products</span>
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <h2 class="text-center">Coming Soon!</h2>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- jute product  -->
+        <div
+          class="modal fade"
+          id="juteModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content container">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+                  Jute <span class="highlight">Products</span>
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <section
+                  id="jute-product-container"
+                  class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2"
+                >
+              </section>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- poultry product  -->
+        <div
+          class="modal fade"
+          id="poultryModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content container">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+                  Poultry <span class="highlight">Products</span>
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <h2 class="text-center">Coming Soon!</h2>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </section>
     </main>
-    
 
     <footer class="bg-dark text-light">
       <section class="footer-information mx-5 mt-5 p-5 d-md-flex gap-3">
@@ -250,6 +477,6 @@
       AOS.init();
     </script>
     <!-- additional js  -->
-    <script src="../js/app.js"></script>
+    <script src="../js/products.js"></script>
   </body>
 </html>
