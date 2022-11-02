@@ -120,4 +120,15 @@
     width: 100%;
 }
 
+#gallery img{
+    height: 400px;
+    width: 400px;
+}
+
+.ceo-img img{
+    height: 400px;
+    width: 300px;
+    box-shadow:-10px 10px 5px#71B002;
+}
+
   
