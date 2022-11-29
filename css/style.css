@@ -126,6 +126,10 @@
   height: 400px;
   width: 400px;
 }
+#achievementGallery img {
+  height: 400px;
+  width: 600px;
+}
 
 .ceo-img img {
   height: 400px;
